@@ -1,6 +1,6 @@
 {
   "tasks": [
-    {"id": "agent-a", "prompt": "Create the alpha demo result.", "expected_file": "arena_demo/alpha.txt", "expected_content": "alpha complete\\n", "test_command": "python -c \"from pathlib import Path; assert Path('arena_demo/alpha.txt').read_text() == 'alpha complete\\n'\""},
-    {"id": "agent-b", "prompt": "Create the beta demo result.", "expected_file": "arena_demo/beta.txt", "expected_content": "beta complete\\n", "test_command": "python -c \"from pathlib import Path; assert Path('arena_demo/beta.txt').read_text() == 'beta complete\\n'\""}
+    {"id": "agent-a", "prompt": "Create the alpha demo result.", "expected_file": "arena_demo/alpha.txt", "expected_content": "alpha complete\n", "test_command": "python -c \"from pathlib import Path; assert Path('arena_demo/alpha.txt').read_text() == 'alpha complete\n'\""},
+    {"id": "agent-b", "prompt": "Create the beta demo result.", "expected_file": "arena_demo/beta.txt", "expected_content": "beta complete\n", "test_command": "python -c \"from pathlib import Path; assert Path('arena_demo/beta.txt').read_text() == 'beta complete\n'\""}
   ]
 }
